@@ -1,0 +1,39 @@
+.box {
+  padding: 10px;
+
+  &.dark {
+    background-color: rgb(60, 60, 60);
+  }
+}
+
+.form {
+  padding: 5px;
+}
+
+.block {
+  padding: 5px;
+}
+
+.input {
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.box.dark .input {
+  background-color: #868686;
+  color: #fff;
+
+  &::placeholder {
+    color: #bcbcbc;
+  }
+}
+
+.select {
+  margin-bottom: 10px;
+}
+
+.btn {
+  &:hover {
+    cursor: pointer;
+  }
+}
